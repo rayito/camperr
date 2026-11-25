@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" width="320" height="160">
+  <style>
+    .cuerpo-vehiculo {
+      fill: #e2e8f0;
+      stroke: #1e293b;
+      stroke-width: 3;
+      stroke-linejoin: round;
+      transition: fill 0.3s ease;
+    }
+    .ventanas { fill: #38bdf8; stroke: #1e293b; stroke-width: 2.5; stroke-linejoin: round; }
+    .detalles-oscuros { fill: #334155; stroke: #1e293b; stroke-width: 2; }
+    .franja-decorativa { fill: #f97316; }
+    .neumatico { fill: #1e293b; }
+    .llanta { fill: #cbd5e1; stroke: #1e293b; stroke-width: 2; }
+    .luz { fill: #fde047; stroke: #1e293b; stroke-width: 1.5; }
+  </style>
+
+  <ellipse cx="160" cy="144" rx="140" ry="6" fill="#000000" opacity="0.15" />
+
+  
+  <path class="cuerpo-vehiculo" d="
+    M 34 128
+    L 34 38
+    Q 34 26 48 26
+    L 216 26
+    Q 234 26 244 46
+    L 256 74
+    L 284 80
+    Q 294 83 294 96
+    L 294 122
+    Q 294 128 286 128
+    L 270 128
+    A 22 22 0 0 0 226 128
+    L 116 128
+    A 22 22 0 0 0 72 128
+    Z
+  " />
+
+  <path class="franja-decorativa" d="M 35.5 96 L 222 96 L 216 103 L 35.5 103 Z" />
+  <rect class="detalles-oscuros" x="95" y="19" width="42" height="7" rx="3" />
+
+  
+  <rect class="ventanas" x="48" y="44" width="38" height="26" rx="6" />
+  <rect class="ventanas" x="166" y="44" width="34" height="26" rx="6" />
+
+  
+  <rect x="98" y="34" width="56" height="90" rx="4" fill="none" stroke="#1e293b" stroke-width="2" />
+  <rect class="ventanas" x="106" y="44" width="40" height="26" rx="5" />
+  <line x1="104" y1="82" x2="112" y2="82" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+
+  
+  <path class="ventanas" d="
+    M 214 44
+    L 236 44
+    L 249 74
+    L 214 74
+    Z
+  " />
+  <rect class="detalles-oscuros" x="242" y="68" width="7" height="14" rx="2" />
+
+  <path class="luz" d="M 286 98 L 293 99 L 293 109 L 286 109 Z" />
+  <rect x="33" y="102" width="5" height="12" rx="1" fill="#ef4444" stroke="#1e293b" stroke-width="1.5" />
+  <rect class="detalles-oscuros" x="29" y="120" width="14" height="10" rx="3" />
+  <rect class="detalles-oscuros" x="281" y="120" width="16" height="10" rx="3" />
+
+  <g transform="translate(94, 128)">
+    <circle class="neumatico" cx="0" cy="0" r="18" />
+    <circle class="llanta" cx="0" cy="0" r="9" />
+    <circle cx="0" cy="0" r="3" fill="#1e293b" />
+  </g>
+  <g transform="translate(248, 128)">
+    <circle class="neumatico" cx="0" cy="0" r="18" />
+    <circle class="llanta" cx="0" cy="0" r="9" />
+    <circle cx="0" cy="0" r="3" fill="#1e293b" />
+  </g>
+</svg>
