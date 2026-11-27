@@ -2,7 +2,7 @@ import type { LngLat } from './types';
 
 export const CONFIG = {
   // Nominatim y Overpass piden identificar la app: pon tu nombre y un contacto real.
-  userAgent: 'CaravanNav/0.1 (tu-email@ejemplo.com)',
+  userAgent: 'Camperr/0.1 (edenhernandez@proton.me)',
   nominatimUrl: 'https://nominatim.openstreetmap.org',
   overpassUrl: 'https://overpass-api.de/api/interpreter',
   // Servidor público de demostración (FOSSGIS). Para producción: tu propio Valhalla o un proveedor.
